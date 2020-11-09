@@ -1,14 +1,12 @@
 import * as React from "react";
-import { Fragment, useEffect, useState } from "react";
+import { Fragment} from "react";
 import { hot } from "react-hot-loader/root";
-import Text from "./components/Text";
+import Header from "./components/Header";
 
-interface AppProps {
-  name: string;
-}
-
-function App({ name }: AppProps) {
-  const [count, setCount] = useState(0);
-  return <Text text="Hola" />;
+function App() {
+  return(
+  <Fragment>
+    <Header/>
+  </Fragment>)
 }
 export default hot(App);
