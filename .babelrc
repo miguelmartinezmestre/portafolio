@@ -8,5 +8,9 @@
     ],
     "@babel/preset-react"
   ],
-  "plugins": ["react-hot-loader/babel"]
+  "plugins": [
+    "babel-plugin-styled-components",
+    "emotion",
+    "react-hot-loader/babel"
+  ]
 }
